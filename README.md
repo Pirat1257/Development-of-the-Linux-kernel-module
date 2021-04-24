@@ -11,6 +11,8 @@ Operating system security
 
 Суть реализованного модуля ядра заключается в сохранении USB-трафика в файл output.txt.
 
+Также реализована программа на языке Python, преобразующая содержимое файла output.txt в табличном виде в файл bos_2.xlsx. Для работы с файлами формата xlsx была использована библиотека Pandas.
+
 Полезные ссылки:
   - https://www.kernel.org/doc/html/v5.3/usb/usbmon.html;
   - https://github.com/MarcoBueno1/SmallSnif;
